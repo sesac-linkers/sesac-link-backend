@@ -1,0 +1,27 @@
+name: 💡 Feature Develop
+description: 개발할 기능에 대해 설명해주세요
+title: "[FEAT]"
+labels: [":hammer_and_wrench: 기능"]
+projects: ["sesac-link/1"]
+
+body:
+  - type: textarea
+    id: what-to-do
+    attributes:
+      label: 🛠️ 진행할 작업
+      description: 진행할 작업에 대해 작성해주세요
+      value: |
+        -
+  - type: textarea
+    id: todo-list
+    attributes:
+      label: 📝 TODO
+      description: 진행할 작업 목록에 대해 작성해주세요
+      placeholder: 작업의 단위를 세분화하여 작성해주세요
+      value: |
+        - [ ] example todo
+  - type: textarea
+    id: etc
+    attributes:
+      label: ⚙️ 기타
+      description: 기타 참고할 만한 사안이 있으면 작성해주세요
